@@ -10,7 +10,7 @@ const Projects = () => {
       description: "A web-based cataract detection system using Flask, SQLite and Deep Learning. Uses VGG-16 and Inception V3 models for phase 1 detection, and MobileNet V2 and ResNet 101 for classification.",
       technologies: ["Flask", "SQLite", "Deep Learning", "VGG-16", "Inception V3", "MobileNet V2", "ResNet 101"],
       period: "Dec 2024 - Apr 2025",
-      github: "#",
+      github: "https://github.com/ravikiran-mothukuri/Cataract_Diagnosis_and_Classification",
       demo: "#"
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       description: "A stock trading simulation platform enabling users to register, log in, and manage a virtual portfolio. Features real-time stock quotes via IEX API and secure session management.",
       technologies: ["Python", "Flask", "SQLite", "Bootstrap", "IEX API"],
       period: "Mar 2024 - Jul 2024",
-      github: "#",
+      github: "https://github.com/ravikiran-mothukuri/Finance_app",
       demo: "#"
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       description: "A full-stack telemedicine web application that streamlines patient care. Classifies symptoms as critical or minor, with doctors providing prescriptions within 24 hours for minor cases.",
       technologies: ["React", "Node.js", "MongoDB", "Express.js", "Telemedicine"],
       period: "Feb 2025 - Apr 2025",
-      github: "#",
+      github: "https://github.com/ravikiran-mothukuri/Healing_Hands",
       demo: "#"
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       description: "A React + Vite frontend with Supabase integration for file storage and real-time updates. Features email delivery via Mailgun with secure link generation and responsive UI.",
       technologies: ["React", "Vite", "Supabase", "Mailgun", "CSS Modules"],
       period: "May 2025 - Jun 2025",
-      github: "#",
+      github: "https://github.com/ravikiran-mothukuri/File_Transfer",
       demo: "#"
     }
   ];

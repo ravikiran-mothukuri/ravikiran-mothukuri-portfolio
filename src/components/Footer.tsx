@@ -12,7 +12,7 @@ const Footer = () => {
 
           <div className="flex gap-6">
             <a 
-              href="https://github.com/ravikiranmothukuri" 
+              href="https://github.com/ravikiran-mothukuri/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
@@ -20,7 +20,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/ravikiranmothukuri" 
+              href="https://www.linkedin.com/in/ravikiran-mothukuri/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="https://leetcode.com/ravikiranmothukuri" 
+              href="https://leetcode.com/u/RAVIKIRAN_MOTHUKURI/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"

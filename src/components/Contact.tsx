@@ -15,8 +15,8 @@ const Contact = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="border-2 border-primary/10 hover:border-primary/30 transition-colors">
+          <div className="flex justify-center mb-12">
+            <Card className="border-2 border-primary/10 hover:border-primary/30 transition-colors max-w-md">
               <CardContent className="p-8 text-center">
                 <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Email</h3>
@@ -29,20 +29,6 @@ const Contact = () => {
                 </Button>
               </CardContent>
             </Card>
-
-            <Card className="border-2 border-primary/10 hover:border-primary/30 transition-colors">
-              <CardContent className="p-8 text-center">
-                <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Phone</h3>
-                <p className="text-muted-foreground mb-4">+91-8179974018</p>
-                <Button asChild>
-                  <a href="tel:+918179974018" className="flex items-center gap-2">
-                    <Phone size={16} />
-                    Call Now
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
           </div>
 
           <div className="text-center">
@@ -50,7 +36,7 @@ const Contact = () => {
             <div className="flex justify-center gap-6">
               <Button size="lg" variant="outline" asChild>
                 <a 
-                  href="https://github.com/ravikiranmothukuri" 
+                  href="https://github.com/ravikiran-mothukuri/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -62,7 +48,7 @@ const Contact = () => {
               
               <Button size="lg" variant="outline" asChild>
                 <a 
-                  href="https://linkedin.com/in/ravikiranmothukuri" 
+                  href="https://www.linkedin.com/in/ravikiran-mothukuri/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -74,7 +60,7 @@ const Contact = () => {
               
               <Button size="lg" variant="outline" asChild>
                 <a 
-                  href="https://leetcode.com/ravikiranmothukuri" 
+                  href="https://leetcode.com/u/RAVIKIRAN_MOTHUKURI/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"

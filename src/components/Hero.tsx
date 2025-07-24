@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className="flex gap-6 justify-center lg:justify-start">
               <a 
-                href="https://github.com/ravikiranmothukuri" 
+                href="https://github.com/ravikiran-mothukuri/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
@@ -43,7 +43,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/ravikiranmothukuri" 
+                href="https://www.linkedin.com/in/ravikiran-mothukuri/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
@@ -51,7 +51,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://leetcode.com/ravikiranmothukuri" 
+                href="https://leetcode.com/u/RAVIKIRAN_MOTHUKURI/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
