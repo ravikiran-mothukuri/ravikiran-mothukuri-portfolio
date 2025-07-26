@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Code, Mail } from "lucide-react";
-import profilePhoto from "/lovable-uploads/9a57bcc3-c9c2-43a0-917c-6ceec882bc7f.png";
+// import profilePhoto from "/lovable-uploads/9a57bcc3-c9c2-43a0-917c-6ceec882bc7f.png";
 
 const Hero = () => {
   return (
@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                 <img 
-                  src={profilePhoto} 
+                  src="" 
                   alt="Ravi Kiran Mothukuri" 
                   className="w-full h-full object-cover"
                 />
