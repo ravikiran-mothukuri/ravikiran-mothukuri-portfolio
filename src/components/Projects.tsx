@@ -10,7 +10,8 @@ const Projects = () => {
       description: "A Java-based e-commerce web application similar to Zepto, using Spring Boot and React. Creating REST APIs for core e-commerce features such as product catalog, cart, wishlist, and order management. Implemented a layered backend architecture using Controller, Service, and Repository layers. Currently implementing the delivery workflow, including order assignment, delivery status updates, and order tracking.",
       technologies: ["Spring Boot", "React", "MySQL", "Java", "REST APIs", "CRUD Operations"],
       period: "Oct 2025 - Present",
-      github: "#",
+      frontend: "https://github.com/ravikiran-mothukuri/GoCart-website",
+      backend: "https://github.com/ravikiran-mothukuri/GoCart-Backend",
       demo: "https://mygocartmini.vercel.app/",
       isLive: true
     },

@@ -17,7 +17,7 @@ const Hero = () => {
               Aspiring Web Developer
             </h2>
             <p className="text-lg lg:text-xl mb-8 opacity-80 max-w-2xl">
-              Passionate about building clean, responsive, and user-friendly web applications using the MERN stack. 
+              Passionate about building clean, responsive, and user-friendly web applications using the MERN stack and Java Full Stack. 
               Committed to continuous learning and contributing effectively to dynamic development teams.
             </p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
