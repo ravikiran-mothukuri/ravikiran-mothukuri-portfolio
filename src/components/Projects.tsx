@@ -10,6 +10,7 @@ const Projects = () => {
       description: "A Java-based e-commerce web application similar to Zepto, using Spring Boot and React. Creating REST APIs for core e-commerce features such as product catalog, cart, wishlist, and order management. Implemented a layered backend architecture using Controller, Service, and Repository layers. Currently implementing the delivery workflow, including order assignment, delivery status updates, and order tracking.",
       technologies: ["Spring Boot", "React", "MySQL", "Java", "REST APIs", "CRUD Operations"],
       period: "Oct 2025 - Present",
+      github:"",
       frontend: "https://github.com/ravikiran-mothukuri/GoCart-website",
       backend: "https://github.com/ravikiran-mothukuri/GoCart-Backend",
       demo: "https://mygocartmini.vercel.app/",
@@ -90,10 +91,46 @@ const Projects = () => {
                   </div>
                   <div className="flex gap-3">
                     <Button size="sm" variant="outline" asChild>
-                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                        <Github size={16} />
-                        Code
-                      </a>
+                      {project.github ? (
+                        <Button size="sm" variant="outline" asChild>
+                          <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                          >
+                            <Github size={16} />
+                            Code
+                          </a>
+                        </Button>
+                      ) : (
+                        <>
+                          <Button size="sm" variant="outline" asChild>
+                            <a
+                              href={project.frontend}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2"
+                            >
+                              <Github size={16} />
+                              Frontend
+                            </a>
+                          </Button>
+
+                          <Button size="sm" variant="outline" asChild>
+                            <a
+                              href={project.backend}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2"
+                            >
+                              <Github size={16} />
+                              Backend
+                            </a>
+                          </Button>
+                        </>
+                      )}
+
                     </Button>
                     <Button size="sm" asChild>
                       <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
