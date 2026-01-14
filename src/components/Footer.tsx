@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-primary mb-2">Ravi Kiran Mothukuri</h3>
-            <p className="text-muted-foreground">Aspiring Web Developer | MERN Stack Enthusiast</p>
+            <p className="text-muted-foreground">Aspiring Web Developer | JAVA Full Stack Enthusiast</p>
           </div>
 
           <div className="flex gap-6">
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
-          <p>&copy; 2024 Ravi Kiran Mothukuri. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ravi Kiran Mothukuri. All rights reserved.</p>
         </div>
       </div>
     </footer>

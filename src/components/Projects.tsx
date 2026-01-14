@@ -6,12 +6,21 @@ import { Github, ExternalLink, Calendar } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "GoCart",
+      description: "A Java-based e-commerce web application similar to Zepto, using Spring Boot and React. Creating REST APIs for core e-commerce features such as product catalog, cart, wishlist, and order management. Implemented a layered backend architecture using Controller, Service, and Repository layers. Currently implementing the delivery workflow, including order assignment, delivery status updates, and order tracking.",
+      technologies: ["Spring Boot", "React", "MySQL", "Java", "REST APIs", "CRUD Operations"],
+      period: "Oct 2025 - Present",
+      github: "#",
+      demo: "https://mygocartmini.vercel.app/",
+      isLive: true
+    },
+    {
       title: "Cataract Diagnosis and Classification",
       description: "A web-based cataract detection system using Flask, SQLite and Deep Learning. Uses VGG-16 and Inception V3 models for phase 1 detection, and MobileNet V2 and ResNet 101 for classification.",
       technologies: ["Flask", "SQLite", "Deep Learning", "VGG-16", "Inception V3", "MobileNet V2", "ResNet 101"],
       period: "Dec 2024 - Apr 2025",
       github: "https://github.com/ravikiran-mothukuri/Cataract_Diagnosis_and_Classification",
-      demo: "#"
+      // demo: "#"
     },
     {
       title: "Finance App",
@@ -19,7 +28,7 @@ const Projects = () => {
       technologies: ["Python", "Flask", "SQLite", "Bootstrap", "IEX API"],
       period: "Mar 2024 - Jul 2024",
       github: "https://github.com/ravikiran-mothukuri/Finance_app",
-      demo: "#"
+      // demo: "#"
     },
     {
       title: "Healing Hands",
@@ -27,7 +36,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express.js", "Telemedicine"],
       period: "Feb 2025 - Apr 2025",
       github: "https://github.com/ravikiran-mothukuri/Healing_Hands",
-      demo: "#"
+      // demo: "#"
     },
     {
       title: "File Transfer",
@@ -35,7 +44,7 @@ const Projects = () => {
       technologies: ["React", "Vite", "Supabase", "Mailgun", "CSS Modules"],
       period: "May 2025 - Jun 2025",
       github: "https://github.com/ravikiran-mothukuri/File_Transfer",
-      demo: "#"
+      // demo: "#"
     }
   ];
 
@@ -54,7 +63,14 @@ const Projects = () => {
             <Card key={index} className="project-card border-2 border-primary/10 hover:border-primary/30">
               <CardHeader>
                 <div className="flex items-start justify-between">
-                  <CardTitle className="text-xl font-bold">{project.title}</CardTitle>
+                  <div className="flex items-center gap-2">
+                    <CardTitle className="text-xl font-bold">{project.title}</CardTitle>
+                    {project.isLive && (
+                      <Badge variant="default" className="text-xs bg-green-600 hover:bg-green-700">
+                        Live
+                      </Badge>
+                    )}
+                  </div>
                   <div className="flex items-center gap-1 text-sm text-muted-foreground">
                     <Calendar size={14} />
                     <span>{project.period}</span>

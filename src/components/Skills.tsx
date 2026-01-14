@@ -8,11 +8,11 @@ const Skills = () => {
     },
     {
       title: "Web Development",
-      skills: ["React", "Node.js", "Express.js", "MongoDB", "Flask", "HTML", "CSS"]
+      skills: ["React", "Node.js", "Express.js", "Spring Boot", "MongoDB", "Flask", "HTML", "CSS"]
     },
     {
       title: "Databases",
-      skills: ["SQL", "MongoDB", "SQLite"]
+      skills: ["MySQL", "MongoDB", "SQLite", "SQL"]
     },
     {
       title: "Tools & Technologies",
@@ -36,8 +36,8 @@ const Skills = () => {
               <h3 className="text-xl font-semibold text-center mb-6">{category.title}</h3>
               <div className="flex flex-wrap gap-2 justify-center">
                 {category.skills.map((skill, skillIndex) => (
-                  <Badge 
-                    key={skillIndex} 
+                  <Badge
+                    key={skillIndex}
                     className="skill-tag px-3 py-1 text-sm font-medium hover:scale-105 transition-transform"
                   >
                     {skill}

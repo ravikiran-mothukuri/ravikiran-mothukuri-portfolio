@@ -20,7 +20,7 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-3">Objective</h3>
               <p className="text-muted-foreground">
                 Aspiring Web Developer with strong enthusiasm for Java and Python, passionate about 
-                building clean, responsive, and user-friendly web applications using the MERN stack.
+                building clean, responsive, and user-friendly web applications using the MERN stack and Java Full Stack.
               </p>
             </CardContent>
           </Card>
@@ -32,14 +32,10 @@ const About = () => {
               <div className="space-y-3 text-left">
                 <div>
                   <h4 className="font-semibold">B.Tech CSE (2021-2025)</h4>
-                  <p className="text-sm text-muted-foreground">Vasireddy Venkatadri Institute</p>
-                  <p className="text-sm font-medium">GPA: 8.4</p>
+                  <p className="text-sm text-muted-foreground">Vasireddy Venkatadri Institute of Technology</p>
+                  <p className="text-sm font-medium">GPA: 8.44</p>
                 </div>
-                <div>
-                  <h4 className="font-semibold">MPC (2018-2020)</h4>
-                  <p className="text-sm text-muted-foreground">Sri Chaitanya College</p>
-                  <p className="text-sm font-medium">GPA: 9.44</p>
-                </div>
+
               </div>
             </CardContent>
           </Card>
