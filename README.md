@@ -1,73 +1,161 @@
-# Welcome to your Lovable project
+# Ravi Kiran - Portfolio
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS to showcase my projects and skills as a web developer.
 
-**URL**: https://lovable.dev/projects/04d86a5b-d3fb-44ce-93d4-3d8648624d19
+## 🌐 Live Demo
 
-## How can I edit this code?
+Visit my portfolio: [https://ravikiran-mothukuri.github.io/ravikiran-mothukuri-portfolio](https://ravikiran-mothukuri.github.io/ravikiran-mothukuri-portfolio)
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Modern UI**: Clean and professional interface with smooth animations
+- **Project Showcase**: Highlight your best projects with descriptions and links
+- **Skills Section**: Display your technical expertise
+- **Contact Form**: Easy way for visitors to get in touch
+- **Dark Mode Support**: Toggle between light and dark themes
+- **SEO Optimized**: Built with meta tags for better search engine visibility
+- **Performance Optimized**: Fast loading times with optimized assets
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/04d86a5b-d3fb-44ce-93d4-3d8648624d19) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework**: React 18.3.1
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Component Library**: shadcn/ui
+- **Icons**: Lucide React
+- **Routing**: React Router
+- **Forms**: React Hook Form with Zod validation
+- **Data Fetching**: TanStack React Query
 
-**Use your preferred IDE**
+## 📋 Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Steps
 
-Follow these steps:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ravikiran-mothukuri/ravikiran-mothukuri-portfolio.git
+   cd ravikiran-mothukuri-portfolio
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. **Open in browser**
+   - The development server will typically run at `http://localhost:5173`
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server with hot module replacement
+- `npm run build` - Build optimized production bundle
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+- `npm run deploy` - Build and deploy to GitHub Pages
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Skills.tsx      # Skills showcase
+│   ├── Projects.tsx    # Projects showcase
+│   ├── Contact.tsx     # Contact form
+│   └── Navigation.tsx  # Navigation bar
+├── pages/              # Page components
+│   ├── Index.tsx       # Main portfolio page
+│   └── NotFound.tsx    # 404 page
+├── lib/                # Utility functions
+├── hooks/              # Custom React hooks
+├── App.tsx             # Root component
+├── main.tsx            # Entry point
+└── index.css           # Global styles
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Update Your Information
 
-**Use GitHub Codespaces**
+1. **Hero Section** (`src/components/Hero.tsx`)
+   - Update your name, title, and description
+   - Replace the profile picture
+   - Update social media links
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. **About Section** (`src/components/About.tsx`)
+   - Add your bio and background
+   - Highlight your experience and achievements
 
-## What technologies are used for this project?
+3. **Skills Section** (`src/components/Skills.tsx`)
+   - List your technical skills and proficiencies
+   - Organize by categories (Frontend, Backend, etc.)
 
-This project is built with:
+4. **Projects Section** (`src/components/Projects.tsx`)
+   - Add your featured projects
+   - Include project descriptions and links
+   - Add project images/thumbnails
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+5. **Contact Section** (`src/components/Contact.tsx`)
+   - Update contact information
+   - Configure contact form (email service integration)
 
-## How can I deploy this project?
+### Styling & Theme
 
-Simply open [Lovable](https://lovable.dev/projects/04d86a5b-d3fb-44ce-93d4-3d8648624d19) and click on Share -> Publish.
+- Color variables are defined in `src/index.css`
+- Tailwind configuration is in `tailwind.config.ts`
+- Modify these files to customize the color scheme and design
 
-## Can I connect a custom domain to my Lovable project?
+## 🚀 Deployment
 
-Yes, you can!
+### Deploy to GitHub Pages
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Ensure your repository is public**
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. **Run the deploy command**
+   ```bash
+   npm run deploy
+   ```
+
+3. **Enable GitHub Pages**
+   - Go to Settings → Pages
+   - Select `gh-pages` branch as the source
+
+### Deploy to Other Platforms
+
+This portfolio can also be deployed to:
+- **Vercel**: [https://vercel.com](https://vercel.com)
+- **Netlify**: [https://netlify.com](https://netlify.com)
+- **Firebase**: [https://firebase.google.com](https://firebase.google.com)
+
+## �� License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Feel free to fork this project and customize it for your own portfolio!
+
+## 📧 Contact
+
+- **Email**: [Your Email]
+- **GitHub**: [https://github.com/ravikiran-mothukuri](https://github.com/ravikiran-mothukuri)
+- **LinkedIn**: [https://www.linkedin.com/in/ravikiran-mothukuri](https://www.linkedin.com/in/ravikiran-mothukuri)
+- **LeetCode**: [https://leetcode.com/u/RAVIKIRAN_MOTHUKURI](https://leetcode.com/u/RAVIKIRAN_MOTHUKURI)
+
+---
+
+**Made with ❤️ by Ravi Kiran**
